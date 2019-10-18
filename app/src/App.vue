@@ -1,16 +1,17 @@
 <template>
   <div id="app">
        这里是git测试
+       <Login></Login>
   </div>
 </template>
 
 <script>
-
+ import Login from "./components/login"
 
 export default {
   name: 'app',
   components: {
-   
+   Login
   }
 }
 </script>
