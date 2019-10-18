@@ -2,6 +2,7 @@
   <div id="app">
        这里是git测试
        <Login></Login>
+       <Register></Register>
   </div>
 </template>
 
@@ -11,7 +12,9 @@
 export default {
   name: 'app',
   components: {
-   Login
+   Login,
+   Register  
+  
   }
 }
 </script>
